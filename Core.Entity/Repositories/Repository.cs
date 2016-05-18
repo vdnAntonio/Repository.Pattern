@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using Core.Entity.Interfaces;
 
 namespace Core.Entity.Repositories
@@ -16,6 +14,7 @@ namespace Core.Entity.Repositories
         {
             Context = context;
         }
+
         public TEntity Get(int id)
         {
             return Context.Set<TEntity>().Find(id);

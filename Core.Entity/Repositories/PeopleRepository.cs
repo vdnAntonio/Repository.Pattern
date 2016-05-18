@@ -11,7 +11,7 @@ namespace Core.Entity.Repositories
 {
     public class PeopleRepository : Repository<Person>, IPersonRepository
     {
-        public PlutoContext PlutoContext => Context as PlutoContext;
+        private PlutoContext PlutoContext => Context as PlutoContext;
         public PeopleRepository(DbContext context) : base(context)
         {
         }

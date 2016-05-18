@@ -18,6 +18,8 @@ namespace Core
                 var topPrices = unitOfWork.Orders.GetTopPrice(5);
 
                 var order = unitOfWork.Orders.GetOrderById(1);
+
+                var topProducts = unitOfWork.Products.MostExpensiveProduct(10);
             }
         }
     }

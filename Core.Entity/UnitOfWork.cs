@@ -17,6 +17,7 @@ namespace Core.Entity
             _context = context;
             People = new PeopleRepository(_context);
             Orders = new OrderRepository(_context);
+            Products = new ProductRepository(_context);
         }
 
         public void Dispose()
@@ -26,6 +27,7 @@ namespace Core.Entity
 
         public IPersonRepository People { get; }
         public IOrderRepository Orders { get; }
+        public IProductRepository Products { get;}
         public int Complete()
         {
             return _context.SaveChanges();

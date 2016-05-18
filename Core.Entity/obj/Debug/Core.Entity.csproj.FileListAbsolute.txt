@@ -8,3 +8,12 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\Core\Core.Entity\bin\Debug\E
 C:\Users\user\Documents\Visual Studio 2015\Projects\Core\Core.Entity\obj\Debug\Core.Entity.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\Visual Studio 2015\Projects\Core\Core.Entity\obj\Debug\Core.Entity.dll
 C:\Users\user\Documents\Visual Studio 2015\Projects\Core\Core.Entity\obj\Debug\Core.Entity.pdb
+D:\Core\Core.Entity\bin\Debug\Core.Entity.dll.config
+D:\Core\Core.Entity\bin\Debug\Core.Entity.dll
+D:\Core\Core.Entity\bin\Debug\Core.Entity.pdb
+D:\Core\Core.Entity\bin\Debug\EntityFramework.dll
+D:\Core\Core.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Core\Core.Entity\bin\Debug\EntityFramework.xml
+D:\Core\Core.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Core\Core.Entity\obj\Debug\Core.Entity.dll
+D:\Core\Core.Entity\obj\Debug\Core.Entity.pdb
