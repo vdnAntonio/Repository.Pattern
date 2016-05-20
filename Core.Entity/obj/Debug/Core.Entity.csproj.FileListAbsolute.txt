@@ -17,3 +17,13 @@ D:\Core\Core.Entity\bin\Debug\EntityFramework.xml
 D:\Core\Core.Entity\bin\Debug\EntityFramework.SqlServer.xml
 D:\Core\Core.Entity\obj\Debug\Core.Entity.dll
 D:\Core\Core.Entity\obj\Debug\Core.Entity.pdb
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\Core.Entity.dll.config
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\Core.Entity.dll
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\Core.Entity.pdb
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\EntityFramework.dll
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\EntityFramework.xml
+D:\github\Repository.Pattern\Core.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\Repository.Pattern\Core.Entity\obj\Debug\Core.Entity.csprojResolveAssemblyReference.cache
+D:\github\Repository.Pattern\Core.Entity\obj\Debug\Core.Entity.dll
+D:\github\Repository.Pattern\Core.Entity\obj\Debug\Core.Entity.pdb
