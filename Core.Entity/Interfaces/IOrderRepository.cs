@@ -17,7 +17,18 @@ namespace Core.Entity.Interfaces
         [Obsolete("GetTopPrice is deprecated")]
         IEnumerable<Order> GetTopPrice(int count);
 
-
+        /// <summary>
+        /// Gets single <see cref="Order"/> by Id
+        /// </summary>
+        /// <param name="id"><see cref="Order"/> Identifier</param>
+        /// <returns></returns>
         Order GetOrderById(int id);
+
+        /// <summary>
+        /// Gets orders begin current date
+        /// </summary>
+        /// <param name="dateTime">Current date, if null then thats be today</param>
+        /// <returns><see cref="Order"/> collection</returns>
+        IList<Order> GetOrdersFromDate(DateTime dateTime);
     }
 }

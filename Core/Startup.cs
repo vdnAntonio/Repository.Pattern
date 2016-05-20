@@ -1,4 +1,5 @@
-﻿using Core.Entity;
+﻿using System;
+using Core.Entity;
 
 namespace Core
 {
@@ -10,7 +11,7 @@ namespace Core
             {
                 var persone = unitOfWork.People.GetPersonWithOrders(1);
 
-                var topPrices = unitOfWork.Orders.GetTopPrice(5);
+                var orderFrom = unitOfWork.Orders.GetOrdersFromDate(new DateTime(2016, 05, 20, 13, 47, 0));
 
                 var order = unitOfWork.Orders.GetOrderById(1);
 

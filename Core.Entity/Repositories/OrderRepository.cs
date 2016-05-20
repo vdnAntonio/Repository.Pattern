@@ -29,5 +29,10 @@ namespace Core.Entity.Repositories
         {
             return PlutoContext.Orders.SingleOrDefault(q => q.Id == id);
         }
+
+        public IList<Order> GetOrdersFromDate(DateTime dateTime)
+        {
+            return PlutoContext.Orders.Where(x => x.DateTime >= dateTime).ToList();
+        }
     }
 }
