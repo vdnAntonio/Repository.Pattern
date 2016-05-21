@@ -14,7 +14,7 @@ namespace Core.Entity.Interfaces
         /// </summary>
         /// <param name="count">Count collection</param>
         /// <returns><see cref="Order"/> collection descending by price</returns>
-        [Obsolete("GetTopPrice is deprecated")]
+        [Obsolete("GetTopPrice is deprecated")] 
         IEnumerable<Order> GetTopPrice(int count);
 
         /// <summary>

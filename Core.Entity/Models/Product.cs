@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Entity.Models
 {
+    /// <summary>
+    /// Represents <see cref="Product"/> entity
+    /// </summary>
     public class Product
     {
         /// <summary>
