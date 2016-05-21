@@ -20,7 +20,7 @@ namespace Core
 
                 var topProducts = unitOfWork.Products.MostExpensiveProduct(10);
 
-                Console.WriteLine($"Persone with id 1: {persone.FirstName} {persone.LastName}");
+                Console.WriteLine($"Persone with id 1: {persone.FirstName} {persone.LastName}"); 
                 Console.WriteLine("");
                 Console.WriteLine($"Date order with id 1: : {order.DateTime}");
                 Console.WriteLine($"And this order did {whoMadeOrder.FirstName}");
